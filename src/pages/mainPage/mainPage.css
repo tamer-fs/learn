@@ -1,0 +1,40 @@
+.mp-container {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr;
+  padding: 40px;
+}
+
+.text-section {
+  padding: 50px;
+}
+
+.images-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  background-color: rgba(255, 255, 255, 0.432);
+  height: 80%;
+  align-self: center;
+}
+
+@media only screen and (max-width: 1405px) {
+  .mp-container {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 2px 1fr;
+  }
+  .line {
+    background-color: rgba(255, 255, 255, 0.432);
+    width: 80%;
+    height: 100%;
+    justify-self: center;
+  }
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
