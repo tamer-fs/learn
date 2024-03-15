@@ -17,7 +17,7 @@ function MainPage() {
           height={"4px"}
           backgroundColor={"var(--golden)"}
         />
-        <button className="style-btn">Bekijk het menu</button>
+        <button className="style-btn">Bekijk menu</button>
       </div>
       <div className="line"></div>
       <div className="images-section">
