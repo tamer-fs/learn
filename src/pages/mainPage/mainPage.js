@@ -8,7 +8,7 @@ function MainPage() {
     <div className="mp-container">
       <div className="text-section">
         <h1 className="span stylish caps italic light hidden">
-          Ontdek de heerlijke smaaken uit de surinaamse keueken
+          Ontdek de heerlijke smaaken uit de surinaamse keuken
         </h1>
         <Seperator
           vmargin={"10px"}
